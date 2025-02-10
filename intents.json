@@ -1,0 +1,142 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "How are you?"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Hey! What can I do for you?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you soon",
+        "Have a good day"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you later!",
+        "Take care!"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "Where is my order?",
+        "What is the status of my order?",
+        "Can you check my order status?",
+        "Track my order",
+        "Order status update"
+      ],
+      "responses": [
+        "Can you please provide your order ID so I can check?",
+        "Let me check that for you. May I have your order number?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "refund_request",
+      "patterns": [
+        "I want a refund",
+        "How do I get a refund?",
+        "Can I return my product?",
+        "I want to return my item",
+        "Requesting a refund"
+      ],
+      "responses": [
+        "I’m sorry to hear that. Can you please provide your order ID and reason for the refund?",
+        "Sure, let’s get started on your refund. May I have your order details?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "product_inquiry",
+      "patterns": [
+        "Tell me about this product",
+        "What are the features of this item?",
+        "Is this product available?",
+        "Do you have this in stock?",
+        "Can you recommend a product for me?"
+      ],
+      "responses": [
+        "Can you tell me which product you’re inquiring about?",
+        "I’d be happy to assist! Please provide more details about the product."
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": [
+        "I need help with my account",
+        "I can’t log in",
+        "My app is not working",
+        "How do I reset my password?",
+        "I’m facing technical issues"
+      ],
+      "responses": [
+        "I’m sorry to hear that. Can you please describe the issue in more detail?",
+        "Let’s get this resolved. May I have more information about the problem?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "payment_issue",
+      "patterns": [
+        "I was charged incorrectly",
+        "My payment didn’t go through",
+        "Why was I double charged?",
+        "Can you check my payment?",
+        "I’m having issues with billing"
+      ],
+      "responses": [
+        "I’m sorry to hear about the issue. Can you provide the payment details or transaction ID?",
+        "Let me assist you with that. May I have your order or payment information?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I have feedback",
+        "Can I leave a review?",
+        "I want to share my experience",
+        "How do I give feedback?",
+        "Where can I submit a review?"
+      ],
+      "responses": [
+        "We value your feedback! Please go ahead and share your thoughts.",
+        "Thank you for taking the time to provide feedback. How can we improve?"
+      ],
+      "context": [""]
+    },
+    {
+      "tag": "general_question",
+      "patterns": [
+        "What are your business hours?",
+        "Where are you located?",
+        "Do you offer discounts?",
+        "What is your return policy?",
+        "How do I contact customer support?"
+      ],
+      "responses": [
+        "That’s a great question! Here’s what I found:",
+        "Let me provide you with that information."
+      ],
+      "context": [""]
+    }
+  ]
+}
